@@ -10,5 +10,5 @@ jobs:
         uses: actions/checkout@v4
       - name: Checkout Repo files
         run: ls -ltra
-      - name: install cowsay
-        run: sudo apt-get install cowsay -y
+      - name: Executing Shell Script
+        run: ./ascii-script.sh
