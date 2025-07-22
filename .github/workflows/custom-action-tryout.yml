@@ -1,0 +1,10 @@
+name: Generate ASCII Art with Custom Action
+
+on: workflow_dispatch
+
+jobs:
+  generate_ascii_art:
+    runs-on: ubuntu-latest
+    steps:
+      - name: generate fortune cowsay
+        uses: N0rphel/prolly-useless-github-action@main
